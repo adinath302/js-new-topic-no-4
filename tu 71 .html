@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript Destructuring assignment and Spread Operator</title>
+    <style>
+        body {
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let arr = [3, 5, 8, 9, 12, 14,]
+        let [a, b, c, d, ...rest] = arr
+        // no need to do this:
+        // let a = arr[0]
+        // let b = arr[1]
+        console.log(a, b, c, d, rest);
+    </script>
+</body>
+
+</html>
